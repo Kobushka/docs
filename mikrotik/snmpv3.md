@@ -35,4 +35,3 @@ Privacy passphrase -->> YoureStrongPassword_EncPass
 ### Навигация
 [Вернуться в основное меню](../README.md)
 <br> [Mikrotik](../mikrotik/README.md)
-
