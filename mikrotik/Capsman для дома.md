@@ -62,7 +62,7 @@ add name=dhcp_pool_guest ranges=192.168.100.20-192.168.100.254
 /ip dhcp-server
 add add-arp=yes address-pool=dhcp_pool_guest disabled=no interface=bridge-guest lease-time=1h name=dhcp-guest
 
-``
+```
 
 <br>На точках доступа нужно минимально сделать следующее:
 
@@ -70,8 +70,13 @@ add add-arp=yes address-pool=dhcp_pool_guest disabled=no interface=bridge-guest 
 /interface wireless cap 
     set caps-man-addresses=192.168.88.1 enabled=yes interfaces=wlan1,wlan2
 ```
+<br>
 
-<br><font color=green>Нужно помнить, что если мы добавим в локальный бридж беспроводные интерфейсы, то получим отвалы клиентов от подключения, по причине не возможности выдачи второго адреса из пула DHCP. Адерса должен выдавать только Capsman.</font>
+```diff
++ Нужно помнить, что если мы добавим в локальный бридж беспроводные интерфейсы, 
++ то получим отвалы клиентов от подключения, по причине не возможности выдачи второго адреса из пула DHCP. 
+! Адреса должен выдавать только Capsman.
+```
 
 ### Навигация
 [Вернуться в основное меню](../README.md)
