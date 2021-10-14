@@ -33,6 +33,6 @@ Privacy passphrase -->> YoureStrongPassword_EncPass
 После внесения всех изменений сетевое устройство Mikrotik начнет мониторится и в Zabbix начнут поступать данные с устройства.
 
 ### Навигация
-[Вернуться в основное меню](../../README.md)
-[Mikrotik](../README.md)
+[Вернуться в основное меню](../README.md)
+<br> [Mikrotik](../mikrotik/README.md)
 
