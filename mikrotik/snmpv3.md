@@ -19,6 +19,8 @@ Zabbix в настройках сетевого устройства, необх
 Заходим в Configuration -->> Hosts и либо заводим новый хост или выбираем существующий.
 Далее, в Host -->> Interfaces необходимо настроить SNMP
 выбираем SNMP version -->> SNMPv3 и заполняем следующие поля
+
+```txt
 Context name -->> snmpv3_zabbix (имя указывали на маршрутизаторах)
 Security name -->> snmpv3_zabbix (у меня сработало имя одинаковое с Контекстом)
 Security level -->> authPriv (обязательно)
@@ -26,5 +28,6 @@ Authentication protocol -->> MD5
 Authentication passphrase -->> YoureStrongPassword_AuthPass (см. профиль SNMP на маршрутизаторе)
 Privacy protocol -->> DES
 Privacy passphrase -->> YoureStrongPassword_EncPass
+```
 
 После внесения всех изменений сетевое устройство Mikrotik начнет мониторится и в Zabbix начнут поступать данные с устройства.
