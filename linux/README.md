@@ -6,4 +6,4 @@
 [Вернуться в основное меню](../README.md)
 <br> [Mikrotik](../mikrotik/README.md)
 <br> [Linux](../linux/README.md)
-<br> [Mikrotik](../mikrotik/README.md)
+<br> [Windows](../windows/README.md)
