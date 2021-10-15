@@ -57,6 +57,5 @@ PS C:\Users\e.kobushka> wsl --install -d Ubuntu-20.04
 
 ### Навигация
 [Вернуться в основное меню](../README.md)
-<br> [Mikrotik](../mikrotik/README.md)
-<br> [Linux](../linux/README.md)
-<br> [Mikrotik](../mikrotik/README.md)
+<br> [Windows](../windows/README.md)
+
