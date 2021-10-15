@@ -19,6 +19,6 @@
 * Добавил настройку Capsman в Mikrotik ([ссылка](./mikrotik/Capsman%20для%20дома.md))
   
 <br>  **15 октября 2021**
-* Отмена установки Linux в WSL Windows ([ссылка](./windows/Отмена%регистрации%linux%в%WSL%Windows.md))
+* Отмена установки Linux в WSL Windows ([ссылка](./windows/Отмена%20регистрации%20linux%20в%20WSL%20Windows.md))
 
 </details>
