@@ -21,4 +21,7 @@
 <br>  **15 октября 2021**
 * Отмена установки Linux в WSL Windows ([ссылка](./windows/Отмена%20регистрации%20linux%20в%20WSL%20Windows.md))
 
+<br>  **18 октября 2021**
+* Установка тестового сервера для программистов Tomcat+JDK+Postgresql+NGINX ([ссылка](./linux/nginx_tomcat.md))
+
 </details>
