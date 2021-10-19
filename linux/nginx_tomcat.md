@@ -188,6 +188,36 @@ sudo systemctl status tomcat.service
 Убеждаемся что все работает и отдаем доступ для программистов.
 Если что-то понадобиться еще дополню.
 
+## 19 октября 2021
+Обновление и дополнение
+
+**Необходимо сделать в конфиге переадресацию на приложение, которое работает на Tomcat
+
+```txt
+upstream tomcat {
+  server 127.0.0.1:8080 fail_timeout=0;
+}
+
+server {
+  listen 80;
+  listen [::]:80;
+
+  server_name xyz.mydomain.com;
+
+  access_log /var/log/nginx/fr.corp.platinka.ru-access.log;
+  error_log  /var/log/nginx/fr.corp.platinka.ru-error.log;
+
+  location / {
+    include proxy_params;
+    proxy_pass http://tomcat/;
+  }
+}
+
+```
+
+Этого оказалось достаточно для экспериментов. На этом пока все...
+
+
 ```diff
 ! В планах добавить установку с помощью Ansible
 ```
