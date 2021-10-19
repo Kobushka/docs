@@ -27,6 +27,9 @@ sudo apt install nginx php-fpm
 Частично сервер настраивают программисты для конкретных веб-приложений
 Поэтому делаем минимальные настройки для работы сервера
 
+<details>
+<summary>Файл /etc/nginx/sites-availabele/default</summary>
+
 ```txt
 server {
 
@@ -60,6 +63,8 @@ server {
 }
 ```
 
+</details>
+	
 Перезапустим и проверим работу сервера NGINX
 
 ```bash
@@ -149,6 +154,9 @@ sudo nano /etc/systemd/system/tomcat.service
 
 И внесем в него следующее содержимое:
 
+<details>
+<summary>Файл /etc/systemd/system/tomcat.service</summary>
+
 ```txt
 [Unit]
 Description=Apache Tomcat Web Application Container
@@ -177,6 +185,8 @@ Restart=always
 WantedBy=multi-user.target
 ```
 
+</details>
+
 Запустим и проверим работу сервиса
 
 ```bash
@@ -193,6 +203,9 @@ sudo systemctl status tomcat.service
 
 **Необходимо сделать в конфиге переадресацию на приложение, которое работает на Tomcat
 
+<details>
+<summary>Файл /etc/nginx/sites-available/app.tomcat</summary>
+
 ```txt
 upstream tomcat {
   server 127.0.0.1:8080 fail_timeout=0;
@@ -204,8 +217,8 @@ server {
 
   server_name xyz.mydomain.com;
 
-  access_log /var/log/nginx/fr.corp.platinka.ru-access.log;
-  error_log  /var/log/nginx/fr.corp.platinka.ru-error.log;
+  access_log /var/log/nginx/app.tomcat-access.log;
+  error_log  /var/log/nginx/app.tomcat-error.log;
 
   location / {
     include proxy_params;
@@ -215,8 +228,16 @@ server {
 
 ```
 
-Этого оказалось достаточно для экспериментов. На этом пока все...
+</details>
 
+Добавим созданный конфиг в разрешенные сайты к запуску
+
+```bash
+sudo ln -s /etc/nginx/sites-available/app.tomcat /etc/nginx/sites-enabled/app.tomcat
+sudo systemctl restart nginx.service
+```
+
+Этого оказалось достаточно для экспериментов. На этом пока все...
 
 ```diff
 ! В планах добавить установку с помощью Ansible
