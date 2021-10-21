@@ -10,7 +10,7 @@ sudo: no valid sudoers sources found, quitting
 sudo: unable to initialize policy plugin
 ```
 
-Обычно хватает исправления сиснтаксиса в сроке с помощью команды
+Обычно хватает исправления сиснтаксиса в строке с помощью команды
 
 ```bash
 pkexec visudo
