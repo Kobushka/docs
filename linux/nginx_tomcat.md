@@ -111,6 +111,24 @@ sudo tar -xvzf ~/jdk-8u291-linux-x64.tar.gz
 
 # настроим окружение для работы
 sudo nano /etc/environment 
+```
+
+Внесем в этот файл следующие правки:
+
+```txt
+# Добавим в переменную PATH следующие записи
+/usr/lib/jvm/jdk1.8.0_291/bin:/usr/lib/jvm/jdk1.8.0_291/db/bin:/usr/lib/jvm/jdk1.8.0_291/jre/bin
+
+# Затем добавим следующие строки для работы JAVA
+J2SDKDIR="/usr/lib/jvm/jdk1.8.0_291"
+J2REDIR="/usr/lib/jvm/jdk1.8.0_291/jre"
+JAVA_HOME="/usr/lib/jvm/jdk1.8.0_291"
+DERBY_HOME="/usr/lib/jvm/jdk1.8.0_291/db"
+```
+
+Обновим ссылки на программы в системе, после внесения изменений
+
+```bash
 sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk1.8.0_291/bin/java" 0
 sudo update-alternatives --install "/usr/bin/javac" "javac" "/usr/lib/jvm/jdk1.8.0_291/bin/javac" 0
 sudo update-alternatives --set java /usr/lib/jvm/jdk1.8.0_291/bin/java
