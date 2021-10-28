@@ -31,4 +31,7 @@
 <br> **21 октября 2021**
 * Устраняем ошибку синтаксиса в SUDOERS ([ссылка](./linux/error_sudoers.md))
 
+<br> ** 28 октября 2021**
+* NGINX - не загружаются файлы больше 1Мб ([ссылка](./linux/upload_nginx_proxy.md))
+
 </details>
