@@ -34,6 +34,11 @@
 <br> **28 октября 2021**
 * NGINX - не загружаются файлы больше 1Мб ([ссылка](./linux/upload_nginx_proxy.md))
 
+</details>
+
+<details>
+<summary>Ноябрь 2021</summary>
+
 <br> **25 ноября 2021**
 * Подключение к сети предприятия и полный доступ в эту сеть ([ссылка](./mikrotik/vpn_work_network.md))
 
