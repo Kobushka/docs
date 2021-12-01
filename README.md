@@ -43,7 +43,7 @@
 * Подключение к сети предприятия и полный доступ в эту сеть ([ссылка](./mikrotik/vpn_work_network.md))
 
 </details>
-
+<details>
 <summary>Декабрь 2021</summary>
 
 <br> **01 декабря 2021**
