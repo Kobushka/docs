@@ -58,4 +58,8 @@
 * Расширение раздела на виртуальной машине без LVM ([ссылка](./linux/ext_part_with_LVM.md))
 * Обновление сервера PostgreSQL до новой версии ([ссылка](./linux/postgres_update_14.md))
 
+<br> **18 марта 2022**
+* Диск Windows отключен в соответствии с установленной администратором политикой ([ссылка](./windows/disk_unmount_policy.md))
+* Ошибка в логах - ***blk_update_request: I/O error, dev fd0, sector 0*** ([ссылка](./linux/blk_update_request.md))
+
 </details>
