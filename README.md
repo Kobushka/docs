@@ -51,7 +51,7 @@
 
 </details>
 <details>
-<summary>март 2022</summary>
+<summary>Март 2022</summary>
 
 <br> **17 марта 2022**
 * Обновление ZABBIX сервера с версии 5.4 до версии 6.0.х ([ссылка](./linux/zabbix_update_6x.md))
