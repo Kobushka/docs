@@ -61,5 +61,7 @@
 <br> **18 марта 2022**
 * Диск Windows отключен в соответствии с установленной администратором политикой ([ссылка](./windows/disk_unmount_policy.md))
 * Ошибка в логах - ***blk_update_request: I/O error, dev fd0, sector 0*** ([ссылка](./linux/blk_update_request.md))
+* Exchange - восстановление индексов почтовых баз ([ссылка](./windows/exchange_restore_indexes.md))
+* Exchange - чек-лист проверки работоспособности почтового сервера ([ссылка](./windows/exchange_checklist.md))
 
 </details>
