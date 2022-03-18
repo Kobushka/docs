@@ -8,6 +8,7 @@
 1. ZABBIX - Обновление сервера с версии 5.4 до версии 6.0.x ([ссылка](zabbix_update_6x.md))
 1. Расширение раздела на виртуальной машине без LVM ([ссылка](ext_part_with_LVM.md))
 1. PostgreSQL - обновление до версии 14 ([ссылка](postgres_update_14.md))
+1. Ошибка в логах ***blk_update_request: I/O error, dev fd0, sector 0*** ([ссылка](blk_update_request.md))
 
 ### Навигация
 [Вернуться в основное меню](../README.md)
