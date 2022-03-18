@@ -9,11 +9,11 @@
 ```powershell
 Get-MailboxDatabaseCopyStatus * | ft -auto
 
-Name                                      Status   CopyQueueLength   ReplayQueueLength    LastInspectedLogTime   ContentIndexState
--------                                   -------  ----------------  ------------------   ---------------------  --------------------
-MailBoxDatabaseONE\EXCH01      Mounted    0        0                                                             Healthy
-MailBoxDatabaseTWO\EXCH01      Mounted    0        0                                                             FailedAndSuspended
-MailBoxDatabaseTHREE\EXCH01    Mounted    0        0                                                             Failed
+Name                           Status   CopyQueueLength   ReplayQueueLength    LastInspectedLogTime   ContentIndexState
+-------                        -------  ----------------  ------------------   ---------------------  --------------------
+MailBoxDatabaseONE\EXCH01      Mounted  0                 0                                           Healthy
+MailBoxDatabaseTWO\EXCH01      Mounted  0                 0                                           FailedAndSuspended
+MailBoxDatabaseTHREE\EXCH01    Mounted  0                 0                                           Failed
 
 # Все что не "Health" - не нормально
 ```
