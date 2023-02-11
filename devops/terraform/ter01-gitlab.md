@@ -122,9 +122,9 @@ gitlab_user_group = "YOUR user group name"
 
 ```
 
-</details>
+</details><br>
 
-<p>Запись некоторых моментов, чтобы не забылось.
+<p><b>Запись некоторых моментов, чтобы не забылось.</b>
 
 <details>
 <summary>Terraform и санкционное давление</summary>
@@ -194,7 +194,7 @@ data "gitlab_group" "user_devops" {
 
 После доработки выполнение задание было принято на <b>отлично</b>
 
-</details>
+</details><br>
 
 Навигация
 ---
