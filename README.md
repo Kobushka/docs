@@ -7,6 +7,7 @@
 * Информация по сетевым устройствам Mikrotik и все что с ними связано ([ссылка](./mikrotik/README.md))
 * Информация по Linux ([ссылка](./linux/README.md))
 * Информация по Windows ([ссылка](./windows/README.md))
+* Обучение по использованию инструментов Devops ([ссылка](./devopd/README.md))
 
 ### Сортировка по датам добавления информации
 
@@ -63,5 +64,12 @@
 * Ошибка в логах - ***blk_update_request: I/O error, dev fd0, sector 0*** ([ссылка](./linux/blk_update_request.md))
 * Exchange - восстановление индексов почтовых баз ([ссылка](./windows/exchange_restore_indexes.md))
 * Exchange - чек-лист проверки работоспособности почтового сервера ([ссылка](./windows/exchange_checklist.md))
+
+</details>
+
+<details>
+<summary>январь 2023</summary>
+
+<br> Обучение на курсах по использованию инструментов DevOps [модуль 1 - использование GIT](./devops/git/README.md)
 
 </details>
