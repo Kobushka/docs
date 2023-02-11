@@ -21,8 +21,10 @@
 * [GIT 15: Создание pull requests в сторонний репозиторий](./git15-pull_request_fork.md)
 * [GIT 16: Git Flow - схема работы с Git](./git16-git_flow.md)
 
+<br>
+
 Навигация
 ---
 
-[Вернуться в основное меню](../../README.md)
-[Вернуться в меню обучения по DevOps](../README.md)
+* [Вернуться в основное меню](../../README.md)
+* [Вернуться в меню обучения по DevOps](../README.md)
