@@ -55,11 +55,13 @@
 <summary>Март 2022</summary>
 
 <br> **17 марта 2022**
+
 * Обновление ZABBIX сервера с версии 5.4 до версии 6.0.х ([ссылка](./linux/zabbix_update_6x.md))
 * Расширение раздела на виртуальной машине без LVM ([ссылка](./linux/ext_part_with_LVM.md))
 * Обновление сервера PostgreSQL до новой версии ([ссылка](./linux/postgres_update_14.md))
 
 <br> **18 марта 2022**
+
 * Диск Windows отключен в соответствии с установленной администратором политикой ([ссылка](./windows/disk_unmount_policy.md))
 * Ошибка в логах - ***blk_update_request: I/O error, dev fd0, sector 0*** ([ссылка](./linux/blk_update_request.md))
 * Exchange - восстановление индексов почтовых баз ([ссылка](./windows/exchange_restore_indexes.md))
@@ -68,8 +70,24 @@
 </details>
 
 <details>
-<summary>январь 2023</summary>
+<summary>декабрь 2023</summary>
 
 <br> Обучение на курсах по использованию инструментов DevOps [модуль 1 - использование GIT](./devops/git/README.md)
+
+</details>
+
+<details>
+<summary>январь 2023</summary>
+
+* Обучение на курсах по использованию инструментов DevOps [модуль 1 - использование GIT](./devops/git/README.md)
+* Обучение на курсах по использованию инструментов DevOps [модуль 2 - использование Terraform](./devops/terraform/README.md)
+
+</details>
+
+<details>
+<summary>февраль 2023</summary>
+
+* Обучение на курсах по использованию инструментов DevOps [модуль 2 - использование Terraform](./devops/terraform/README.md)
+* Обучение на курсах по использованию инструментов DevOps [модуль 3 - использование Ansible](./devops/ansible/README.md)
 
 </details>
