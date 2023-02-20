@@ -46,10 +46,6 @@ provider "aws" {
 
 ```yml
 locals {
-  # Увидел такое решение по пренеймингу размеров VPC
-  # Использование:
-  # size = local.sizes.nano
-
   do_vm_sizes = {
     nano      = "s-1vcpu-1gb"
     micro     = "s-2vcpu-2gb"
@@ -61,10 +57,6 @@ locals {
     xxx-large = "s-24vcpu-128gb"
     maximum   = "s-32vcpu-192gb"
   }
-
-  # Увидел такое решение по пренеймингу регионов
-  # Использование:
-  # size = local.regions.frankfurt
 
   do_regions = {
     new_york_1    = "nyc1"
@@ -264,7 +256,7 @@ aws_zone = "example.net"
 
 ```
 
-</details>
+</details><br><br>
 
 Навигация
 ---
