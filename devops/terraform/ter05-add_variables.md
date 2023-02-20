@@ -1,8 +1,8 @@
-Выполнение задания
+Terraform 05: Создание нескольких ресурсов. Работа с переменными
 ===
 
 <p>Задание добавить в конфигурацию переменную, описывающую количество создаваемых VPS</p><br><br>
-<p>Основные параметры и провайдеры не изменились. Добавлна только работа со списком созданных ресурсов</p>
+<p>Основные параметры и провайдеры не изменились. Добавлена только работа со списком созданных ресурсов</p>
 
 <details>
 <summary>Содержимое файла <b>main.tf</b></summary>
@@ -53,7 +53,7 @@ locals {
     xxx-large = "s-24vcpu-128gb"
     maximum   = "s-32vcpu-192gb"
   }
-  
+
   do_regions = {
     new_york_1    = "nyc1"
     new_york_3    = "nyc3"
@@ -65,7 +65,7 @@ locals {
     toronto       = "tor1"
     india         = "blr1"
   }
-  
+
   do_vps_user_name = split("_", split(":", var.tag_user_email)[1])[0]
   do_vm_ip = digitalocean_droplet.srv[*].ipv4_address
 }

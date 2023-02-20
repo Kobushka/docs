@@ -1,4 +1,4 @@
-Выполнение задания
+Terraform 04: Связывание элементов. VPS & DNS
 ===
 
 <p>Опишите в конфигурации локальную переменную, хранящую IP-адрес созданной VPS, чтобы передать ее в ресурс создания DNS. Дополнительно, опишите ресурс aws_route53_record для создания DNS-записи. DNS запись должна соответствовать шаблону: ВАШ_ЛОГИН.cource.corp.net (логином может являться имя-фамилия или логин почты) и разрешаться в IP создаваемой VM.
@@ -54,7 +54,7 @@ locals {
     xxx-large = "s-24vcpu-128gb"
     maximum   = "s-32vcpu-192gb"
   }
-  
+
   do_regions = {
     new_york_1    = "nyc1"
     new_york_3    = "nyc3"
@@ -66,7 +66,7 @@ locals {
     toronto       = "tor1"
     india         = "blr1"
   }
-  
+
   do_vps_public_ipv4 = digitalocean_droplet.srv.ipv4_address
   do_vps_user_name = split("_", split(":", var.tag_user_email)[1])[0]
 }
