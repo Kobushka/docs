@@ -103,6 +103,6 @@
 <details>
 <summary>июнь 2023</summary>
 
-* Развертывание сервера 1С + PostgreSQL Pro ([ссылка](1с_postgres.md))
+* Развертывание сервера 1С + PostgreSQL Pro ([ссылка](./linux/1с_postgres.md))
 
 </details>
