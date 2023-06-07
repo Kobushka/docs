@@ -205,3 +205,11 @@ systemctl status srv1cv8-8.3.23.1437@default.service
 При корректной настройке среди выведенных строк должно быть `Active: active (running)`
 
 Все...
+
+<br>
+
+## Навигация
+
+[Вернуться в основное меню](../README.md)
+<br> [Linux](../linux/README.md)
+
