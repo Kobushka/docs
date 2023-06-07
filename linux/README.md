@@ -9,8 +9,10 @@
 1. Расширение раздела на виртуальной машине без LVM ([ссылка](ext_part_with_LVM.md))
 1. PostgreSQL - обновление до версии 14 ([ссылка](postgres_update_14.md))
 1. Ошибка в логах ***blk_update_request: I/O error, dev fd0, sector 0*** ([ссылка](blk_update_request.md))
+1. Развертывание сервера 1С + PostgreSQL Pro ([ссылка](1с_postgres.md))
 
 ### Навигация
+
 [Вернуться в основное меню](../README.md)
 <br> [Mikrotik](../mikrotik/README.md)
 <br> [Linux](../linux/README.md)
